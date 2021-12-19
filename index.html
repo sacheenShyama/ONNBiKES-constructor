@@ -11,6 +11,61 @@
     <title>Rent a Bike or Scooty with Zero Deposit at 8/Hours ONN-Bikes</title>
 </head>
 <style>
+ /* rental,why-onn,feature */
+
+      #rental-app {
+        display: grid;
+        grid-template-columns: 30% 35% 30%;
+        gap: 2%;
+        text-align: center;
+        margin: 20px;
+    }
+
+    #rental-app>div {
+        border: 1px solid black;
+    }
+
+    img {
+        width: 150px;
+    }
+
+    #why-sec {
+        display: grid;
+        grid-template-columns: repeat(4, 22%);
+        gap: 2%;
+        margin: 50px 0 0 50px;
+
+    }
+    .why-img{
+        width: 100px;
+    }
+    .why-img1{
+        width: 65px;
+    }
+
+    #why-sec>div {
+
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    }
+
+    #featured {
+        margin: 60px 0;
+    }
+
+    #feature {
+        display: grid;
+        grid-template-columns: repeat(5, 19%);
+        gap: 0.5%;
+        margin-left: 20px;
+    }
+
+    #feature>div {
+        text-align: center;
+        margin-top: 30px ;
+    }
+    
+    /* feature end  */
+
     /* contact us css part */
     * {
         font-family: 'Open Sans', sans-serif;
@@ -42,12 +97,6 @@
         display: grid;
         grid-template-columns: repeat(2, 49%);
         gap: 2%;
-    }
-
-
-
-    #location_sec {
-        border: 1px solid red;
     }
 
     #fl_name>input {
@@ -95,6 +144,11 @@
         margin-top:4px ;
         background-color: white;
         /* color: black; */
+    }
+    #mum:hover{
+        background-color: #1e2d51;
+        color: white;
+        font: 10px;
     }
 
     #mum-add,
@@ -255,6 +309,99 @@
 </style>
 
 <body>
+
+    <!-- rental bike  -->
+
+    <div id="rental-app">
+        <div>
+            <img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.freepnglogos.com%2Fuploads%2Fgoogle-play-png-logo%2Fget-it-on-google-play-google-play-badge-png-logos-23.png&imgrefurl=https%3A%2F%2Fwww.freepnglogos.com%2Fpics%2Fgoogle-play-png-logo&tbnid=yzWUi5VZl3xcmM&vet=12ahUKEwj82eerje_0AhV2zXMBHe--CrQQMygFegUIARC4AQ..i&docid=1GYxLl7ZV8PtUM&w=800&h=800&itg=1&q=google%20play%20store%20image%20png&ved=2ahUKEwj82eerje_0AhV2zXMBHe--CrQQMygFegUIARC4AQ" alt="">
+    
+        </div>
+        <div>
+            <h2>ONN Bikes Rental App</h2>
+        </div>
+        <div>
+            <img src="C:\Users\Scientific Scholar\Desktop\f13\apple.png" alt="">
+        </div>
+    </div>
+    
+    <div id="why-onn">
+    
+        <div class="contact_us">
+            <h1>Why ONN?</h1>
+            <p>We simplified bike rentals, so you can focus on what's important to you.</p>
+        </div>
+    
+        <div id="why-sec">
+    
+            <div>
+                <div style="text-align: center;">
+                    <img class="why-img" src="https://www.onnbikes.com/img/Safe-Rides-Icon.svg" alt="img">
+                    <h3>Safe Rides</h3>
+                </div>
+                <p style="text-align: center; line-height: 30px; padding: 2%;">Your safety is our priority. From
+                    sanitizing all bikes before every use, to extensive on-ground safety measures, your rides with ONN
+                    will always be safe and reliable. We also offer helmets on-demand.</p>
+            </div>
+    
+            <div>
+                <div style="text-align: center;">
+                    <img class="why-img" src="https://www.onnbikes.com/img/Flexible-Ownership.svg" alt="img">
+                    <h3>Flexible Ownership</h3>
+                </div>
+                <p style="text-align: center; line-height: 30px; padding: 2%;">Enjoy the freedom of owning a two-wheeler
+                    without the hefty down-payments, EMIs and paperwork. Now choose from rent-to-own, monthly/quarterly
+                    bookings, and even daily plans.</p>
+            </div>
+    
+            <div>
+                <div style="text-align: center;">
+                    <img class="why-img1" src="https://www.onnbikes.com/img/Smarter-Mobility.svg" alt="img">
+                    <h3>Smarter Mobility</h3>
+                </div>
+                <p style="text-align: center; line-height: 30px; padding: 2%;">With your trusty ONN app, you can choose
+                    any bike, make instant payments, get offers, and manage all aspect of your ONN experience right from
+                    the comfort and ease of your mobile app.</p>
+            </div>
+    
+            <div>
+                <div style="text-align: center;">
+                    <img class="why-img" src="https://www.onnbikes.com/img/ONN-Stations.svg" alt="img">
+                    <h3>ONN Stations</h3>
+                </div>
+                <p style="text-align: center; line-height: 30px; padding: 4%;">Your local ONN Station is here to make
+                    ensure your two-wheeler experience is flawless. At your neighborhood station, you get to pick any
+                    bike, get maintenance, sanitized, and a lot more.</p>
+            </div>
+    
+        </div>
+    
+    </div>
+    
+    <div id="featured">
+    
+        <div class="contact_us">
+            <h1>Featured On</h1>
+            <p>Our complete press coverage.</p>
+        </div>
+    
+        <div id="feature">
+            <div> <a href="https://www.aninews.in/news/business/business/onn-bikes-raises-rs-45-cr-funding-towards-expansion201711201813040001/" target="_blank"><img src="https://aniportalimages.s3.amazonaws.com/static/img/logo-black.png" alt=""></a>
+            </div>
+            <div> <a href="https://www.business-standard.com/article/news-ani/onn-bikes-raises-rs-4-5-cr-funding-towards-expansion-117112000903_1.html" target="_blank"><img style="margin-top: 12px;"
+                        src="https://bsmedia.business-standard.com/include/_mod/site/html5/images/business-standard-logo.png"
+                        alt=""></a></div>
+            <div> <a href="http://bwdisrupt.businessworld.in/article/ONN-Bikes-Raises-Pre-Series-A-Investment-from-Z-Nation-Lab-JITO-Angels-and-Venture-Catalysts/20-11-2017-132233/" target="_blank"><img src="http://bwdisrupt.businessworld.in/static/images/full-Disrupt-logo.png" alt=""></a>
+            </div>
+            <div> <a href="https://www.thenewsminute.com/article/bike-rental-startup-onn-bikes-raises-692000-pre-series-round-led-z-nation-lab-71926" target="_blank"><img src="https://www.thenewsminute.com/sites/all/themes/tnm/images/logo-white-bg.png"
+                        alt=""></a></div>
+            <div> <a href="https://www.vccircle.com/bike-rentals-startup-onn-bikes-raises-692k-in-pre-series-a-funding" target="_blank"><img src="https://staticassets.vccircle.com/images/VCC-logo.svg" alt=""></a></div>
+        </div>
+    
+    </div>
+
+    <!-- feature sec end  -->
+
     <!-- contact us start -->
     <div class="contact_us">
         <h1>Contact US</h1>
