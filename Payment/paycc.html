@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+        body{
+            background:#7e8e9f;
+        }
+        #main{
+            height:500px;
+            width:500px;
+            margin:80px auto;
+            border:1px solid #000;
+            background:#ffff;
+            box-shadow:0.1rem 0.1rem 0.8rem 0.1rem;
+        }
+        #fst,#sec{
+            height:80px;
+            width:99%;
+            margin:2px auto;
+            margin-top: 10px;
+            border:1px solid #000;
+        }
+        #fst1,#sec1{
+            margin-top:3%;
+            display: inline-block;
+            
+            height:40px;
+            width:49%;
+            border:1px solid #000;
+        }
+        #fst2,#sec2{
+            
+            display: inline-block;
+            
+            height:40px;
+            width:49%;
+            border:1px solid #000;
+        }
+        input{
+            margin-top: 5px;
+            margin-left: 5px;
+            font-size:18px;
+            font-family: cursive;
+            height:20px;
+            width:90%;
+        }
+        /* #Submit{
+            margin:10px auto;
+            height:30px;
+            width: 97%;
+            border:1px solid #000;
+        } */
+        button{
+            margin-left: 175px;
+            margin-top: 20px;
+            height:35px;
+            font-size: 20px;
+            width: 20%;
+            color: aliceblue;
+            border-radius: 10px;border: none;
+            border:1px solid #000;
+            
+            background-color: rgb(76, 177, 218);
+        }
+        #h4{
+            margin:10px auto;
+            height:50px;
+            width:99%;
+            border:1px solid #000;
+        }
+        #h4 h4{
+            font-size:21px;
+            color:blue;
+        }
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div id="h4"><h4>Card Details</h4></div>
+        <div id="fst">
+            <div id="fst1">
+                <input type="text" placeholder="Enter Your Name" id="name">
+
+            </div>
+            <div id="fst2">
+                <input type="number" placeholder="Enter Card Number" id="cardNumber">
+
+            </div>
+        </div>
+        <div id="sec">
+            <div id="sec1">
+                <input type="date" placeholder="Enter Expairy Date" id="date">
+
+            </div>
+            <div id="sec2">
+                <input type="text" placeholder="Enter Cvv" id="cvv">
+
+            </div>
+        </div>
+        
+            <button onclick="submit()">Submit</button>
+
+    
+    </div>
+
+</body>
+</html>
+<script>
+    function submit(){
+        let name=document.getElementById("name").value;
+        let card=document.getElementById("cardNumber").value;
+        // let date=document.getElementById("date").value;
+        let cvv=document.getElementById("cvv").value;
+
+        if(name==""){
+            alert("plaese enter name");
+        }
+       else if(card.length!=16){
+            alert("please enter a valid cardNumber");
+        }
+        else if(cvv.length!=3){
+            alert("please enter a valid cvv number");
+        }
+        else{
+
+            window.location.href="otp.html";
+        }
+        
+    }
+</script>
