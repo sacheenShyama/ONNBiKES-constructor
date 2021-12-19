@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <title>Document</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        #main{
+            
+            
+            display: grid;
+            grid-template-columns: 340px 440px;
+            width: 800px;
+            /* height: 450px; */
+            margin:8% auto;
+            grid-column-gap: 0px;
+            border: 1px solid #000;
+        }
+       .boxes{
+           
+            margin-top: 2px;
+            /* width: 300px; */
+            height:450px;
+            border: 1px solid #000;
+        }
+        #left img{
+            width:100%;
+            height:100%;
+        }
+        #logsin{
+            margin-left: 5px;
+            margin-top: 2px;
+            width: 98%;
+            height: 50px;
+            border: 1px solid #000;
+        }
+        #logsin li{
+            list-style: none;
+            margin-left: 8px;
+            margin-top:10px;
+            display: inline-block;
+            
+        }
+        #logsin li a{
+            font-family: Arial, sans-serif;
+            margin-top:15px;
+            text-decoration: none;
+            font-size:16px;
+            text-transform: uppercase;
+        }
+        li .line{
+            font-size:20px; 
+           border-radius: 5px;
+           }
+       #facgoogle{
+           display: grid;
+           grid-template-columns: 200px 200px;
+           margin-top:10px;
+           grid-column-gap: 2px;
+           border: 1px solid #000;
+           height: 70px;
+       }
+       .facgoog{
+           margin: auto 22px;
+           height: 40px;
+             width: 180px;
+             border: 1px solid #000;
+       }
+        #facebook{
+
+          
+           background-color:#4865b4;
+        }
+        #google{
+           
+           background-color:#dd4b39;
+
+       }
+       #facebook,#google{
+           /* margin-left:50px ; */
+           width:70%;
+           height: 100%;
+           border: 1px solid #000;
+       }
+       #facebook li,#google li{
+           list-style: none;
+           margin-top: 5px; 
+           margin-left: 10px; 
+           letter-spacing: 1px;
+           
+           font-size:18px;
+           text-decoration: none;
+           
+        }
+        #facebook li a ,#google li a{
+           color:#fff;
+           text-decoration:none;
+       } 
+       #fc{
+           display: grid;
+           /* grid-template-columns:repeat(2,20%); */
+           grid-template-columns:50px 129px;
+           grid-column-gap:1px;
+           /* width:200px; */
+       }
+       #fc .f{
+           height: 40px;
+           width: 100%;
+           border: 1px solid #000;
+        }
+           #fcicon{
+
+               background-color: rgb(72, 72, 148);
+           }
+       #go{
+               display: grid;
+           /* grid-template-columns:repeat(2,20%); */
+           grid-template-columns:50px 126px;
+           grid-column-gap:1px;
+           /* width:200px; */
+       }
+       #go .g{
+           height: 40px;
+           width: 100%;
+           border: 1px solid #000;
+       
+       }
+       #gicon{
+           background-color: rgb(216, 38, 38);
+       }
+       #fcicon i,#gicon i{
+           margin-top: 20%;
+           margin-left: 30%;
+           font-size:18px;
+           color: #fff;
+           
+           
+       }
+       #inputs{
+           margin-top:2%;
+           height: 180px;
+           width: 99%;
+           border: 1px solid #000;
+           padding:5px 2px;
+           
+       }
+       input{
+           margin-top: 10px;
+           /* border: none; */
+           height:40px;
+           width: 100%;
+       }
+       #check{
+            margin-top: 10px;
+          height:40px;
+          width:99%;
+          border: 1px solid #000;
+          /* margin-left: -175px; */
+          /* justify-content: flex-start; */
+       }
+       #inp,#forget{
+           display: inline-block;
+           margin-top: 0px;
+           /* margin-left: -80px; */
+           width: 49%;
+           height: 98%;
+           border: 1px solid #000;
+           
+        }
+        #ch{
+           
+           display: inline-block;
+           width: 40px;
+           height: 100%;
+           border: 1px solid #000;
+           justify-content: flex-start;
+        }
+        #ch input{
+            margin-top: 5px;
+            /* margin-left: 0px; */
+            width: 50px;
+            height: 60%;
+            border: 1px solid #000;
+            justify-content: flex-start;
+        }
+        #Rem{
+            display: inline-block;
+            width:78%;
+           height: 100%;
+           border: 1px solid black;
+           
+           vertical-align: top;
+           
+       }
+       #Rem label{
+           display: inline-block;
+           font-size: 18px;
+           margin-top: 5px;
+           color:#877f92;
+           letter-spacing: 1.5px;
+           /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+       }
+       #forget{
+           vertical-align: top;
+       }
+       #forget li{
+           list-style: none;
+           margin-top:3px;
+           text-align: end;
+         
+          
+       }
+       #forget li a{
+           
+           margin-right: 10px;
+           font-size: 21px;
+          text-decoration: none;
+          color:#97979a
+       }
+    #btn{
+        margin: auto;
+        margin-top:5px;
+        width: 95%;
+        height:10%;
+        
+    }
+    #btn button{
+        border: none;
+        width: 100%;
+        background-color:#2d3b55;
+        height: 100%;
+       font-size: 20px;
+       color: #fff;
+        
+    }
+    #text{
+        margin-top: 2%;
+        margin-left: 30%;
+        width: 45%;
+        height: 8%;
+        border: 1px solid #000;
+    }
+    #text li{
+        display: inline-block;
+    }
+    #log{
+    height:70px;
+    width:50px;
+    border: 1px solid #000;
+    }
+     #input{
+        display: none;
+         /* display: visible;  */
+         /* height:180px;
+         width:100%;
+         border: 1px solid #000; */
+     }  
+    #input input{
+        margin-left:10px;
+        margin-bottom: 10px;
+        width: 200px;
+        height:40px;
+        display: inline-block;
+        border-top:none;
+        border-left: none;
+         border-right: none;
+    }
+    </style>
+</head>
+<body>
+  
+    <div id="main">
+         <div id="left" class="boxes">
+             <img src="https://www.onnbikes.com/img/ONN-logo-unit-without-shadow.png" alt="">
+
+         </div>
+         <div id="right" class="boxes">
+              <div id="logsin">
+                 <li><a href="#" onclick="log()">Login</a></li>
+                 <!-- <button onclick="log()">login</button> -->
+                 <li><div class='line'>|</div></li>
+                 <li><a href="#" onclick="sig()">Signup</a></li>
+                 <!-- <button onclick="sig()">sigin</button> -->
+              </div>
+              <div id="facgoogle">
+                  <div class="facgoog" id='fc'>
+                     
+                          <div id="fcicon" class="f">
+                           <i class="fab fa-facebook-f"></i>
+                          </div>
+                           <div id='facebook' class="f">
+                           <li>
+
+                              <a href="" >Facbook</a>
+                          </li>  
+                           </div>   
+                    
+                  </div>
+                    <div class="facgoog" id='go'>
+                        <div  id='gicon' class='g'>
+
+                            <i class="fab fa-glide-g"></i>
+                        </div>
+                        <div id='google' class='g'>
+                         <li>
+
+                               <a href="" >Google+</a>
+                           </li> 
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div id="or">
+
+                </div>
+                <div id="input">
+                    <input type="text" placeholder="Enter fname" id="fname">
+                    <input type="text" placeholder="Enter lname" id="lname">
+                    <input type="text" placeholder="Enter password" id="password">
+                    <input type="text" placeholder="Enter email" id="email">
+                    <input type="text" placeholder="Enter phone number" id="mobile">
+                </div>
+              <div id="inputs">
+
+                  <input type="email" placeholder="Email Id/Phone Number" id='em'> 
+                  <input type="password" placeholder="Password" id='pass'>
+
+                  <div id="check">
+                        <div id="inp">
+                            <div id="ch">
+                              <input type="checkbox" name="" id="">
+                            </div>
+                                <div id="Rem">
+                                    <label for="">Remember me</label>
+                                </div>
+                        </div>
+                        <div id="forget">
+                            <li><a href="">Forgot?</a> </li>
+                       </div>
+                  </div>
+                </div>
+                <div id="btn">
+                    <button  id='lo'>Login</button>
+
+                </div>
+
+                <div id="text">
+                    <li>  <a href="#" onclick="log()">New to ONN Bikes?</a> </li>
+                    <li>  <a href="#" onclick="sig()" >Signup</a> </li>
+                </div>
+        </div>
+     </div>
+        
+    </body>
+    </html>
+    <script>
+    // document.getElementById("input").style.display="none";
+    let data=JSON.parse(localStorage.getItem("userdata"));
+    console.log(data);
+
+    function dilipl(){
+        let em=document.getElementById("em").value;
+        let pass=document.getElementById("pass").value;
+        if(data[0]!=em){
+                alert("Please enter a valid email address")
+            }
+            else if(data[1]!=pass){
+            alert("Please enter a valid password")
+
+        }
+        else if(data[0]==em && data[1]==pass){
+            alert("login successful")
+        }
+    }
+    function dilips() {
+            let fname=document.getElementById("fname").value;
+            let lname=document.getElementById("lname").value;
+            let password= document.getElementById("password").value;
+            let email= document.getElementById("email").value;
+            let mobile= document.getElementById("mobile").value;
+        
+        let arr = [];
+        arr.push(email,password);
+        console.log(arr)
+        localStorage.setItem("userdata", JSON.stringify(arr))
+    }
+    function log() {
+    
+        document.getElementById("input").style.display="none";
+
+        document.getElementById("inputs").style.display="inline-block";
+        document.getElementById("lo").innerHTML="Login";
+        document.getElementById("lo").addEventListener('click',dilipl);
+        // console.log("localStorage")
+    }
+    function sig() {
+        document.getElementById("inputs").style.display="none";
+        // document.getElementById("input").style.display="visiable";
+        document.getElementById("input").style.display="inline-block";
+        // document.getElementById("input").innerHTML="";
+        // let x=document.getElementById("input");
+        // let div=document.createElement("div");
+
+        // let ip1=document.createElement("input");
+        // ip1.setAttribute("placeholder","Enter First Name")
+        // ip1.setAttribute("id","fname")
+        // ip1.style.display="inline-block"
+        // let ip2=document.createElement("input");
+        // ip2.setAttribute("placeholder","Enter Last Name")
+        // ip1.setAttribute("id","lname")
+        // let ip3=document.createElement("input");
+        // ip3.setAttribute("placeholder","Enter Password")
+        // ip1.setAttribute("id","password")
+        // let ip4=document.createElement("input");
+        // ip4.setAttribute("placeholder","Enter Email")
+        // ip1.setAttribute("id","email")
+        // let ip5=document.createElement("input");
+        // ip5.setAttribute("placeholder","Enter Mobile Number")
+        // ip1.setAttribute("id","mobile")
+        
+        //     div.append(ip1,ip2,ip3,ip4,ip5);
+        //     x.append(div);
+        document.getElementById("lo").innerHTML="Signup";
+        document.getElementById("lo").addEventListener('click',dilips);
+
+        
+    }
+</script>
