@@ -1,7 +1,7 @@
 # ONNBiKES-constructor
 our project
 Clone of https://www.onnbikes.com/
-Hello There, My Name is Abhishek Mishra currently i'm learning in Masai School This is my Third unit in masai school.
+Hello There, My Name is Nikhil Tripathi currently i'm learning in Masai School This is my Third unit in masai school.
 In the end of the unit third we got the project to make Clone of an application. I've selected for the make clone of https://www.onnbikes.com/
 Well its a application where you can rent a bike.
 Enjoy the freedom of owning a two-wheeler without the hefty down-payments, EMIs and paperwork. Now choose from rent-to-own, monthly/quarterly bookings, and even daily plans.
