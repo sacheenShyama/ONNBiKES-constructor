@@ -43,13 +43,13 @@ Finding HTML elements by id Finding HTML elements by tag name Finding HTML eleme
 ONN-Bikes
 Rent a Bike or Scooty with Most Flexible Daily, Weekly & Monthly Bike Rental Plans @ Most Affordable Price. Free Helmet & Easy Booking. Join our 100,000+ Happy Bike Riders Family Now.
 Rent a Bike or Scooty with Most Flexible Daily, Weekly & Monthly Bike Rental Plans @ Most Affordable Price. Free Helmet & Easy Booking. Join our 100,000+ Happy Bike Riders Family Now.
-  <h1>Feature of this website </h1>
+  <h2>Feature of this website </h2>
     <li>  Login and Signup authentication </>
     <li>  User can browse through various category and rent two-wheelers .</>
     <li>  A dynamic and animated user friendly home page with calendar option.</>
     <li> Paymnet Gateway </>
     <li> OTP-confirmation on Payment</>
   
-  <h6> Tech Stack: HTML || CSS || JavaScript Group-Members:4 </>
+  <h4> Tech Stack: HTML || CSS || JavaScript Group-Members:4 </h4>
   
 <img width="905" alt="ONN" src="https://user-images.githubusercontent.com/93374317/155106591-e1afa592-d2af-4c35-999a-ba6d7010095f.png">
