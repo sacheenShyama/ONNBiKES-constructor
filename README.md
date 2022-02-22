@@ -52,4 +52,12 @@ Rent a Bike or Scooty with Most Flexible Daily, Weekly & Monthly Bike Rental Pla
   
   <h4> Tech Stack: HTML || CSS || JavaScript Group-Members:4 </h4>
   
-<br/>
+<hr>
+<h5> Home Page </h5>
+
+<img width="890" alt="o1" src="https://user-images.githubusercontent.com/93374317/155108533-bc4a299d-0f6b-4d9a-ac95-d94fae98a4fa.png">
+<h5> Login Page </h5>
+<img width="581" alt="Olohin" src="https://user-images.githubusercontent.com/93374317/155108647-d4b191d2-2bda-4069-8670-6136cfe75a25.png">
+<h5> Bike Details Page </h5>
+<img width="912" alt="Screenshot 2022-02-22 152708" src="https://user-images.githubusercontent.com/93374317/155108748-fbdbd4ca-2d05-4226-9e4b-db9df78dd76b.png">
+
