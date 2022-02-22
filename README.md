@@ -43,6 +43,7 @@ Finding HTML elements by id Finding HTML elements by tag name Finding HTML eleme
 ONN-Bikes
 Rent a Bike or Scooty with Most Flexible Daily, Weekly & Monthly Bike Rental Plans @ Most Affordable Price. Free Helmet & Easy Booking. Join our 100,000+ Happy Bike Riders Family Now.
 Rent a Bike or Scooty with Most Flexible Daily, Weekly & Monthly Bike Rental Plans @ Most Affordable Price. Free Helmet & Easy Booking. Join our 100,000+ Happy Bike Riders Family Now.
+  <hr>
   <h2>Feature of this website </h2>
     <li>  Login and Signup authentication </>
     <li>  User can browse through various category and rent two-wheelers .</>
@@ -56,13 +57,15 @@ Rent a Bike or Scooty with Most Flexible Daily, Weekly & Monthly Bike Rental Pla
 <h2> Home Page </h2>
 
 <img width="890" alt="o1" src="https://user-images.githubusercontent.com/93374317/155108533-bc4a299d-0f6b-4d9a-ac95-d94fae98a4fa.png">
+<hr>
 <h2> Login Page </h2>
-<hr>
-<hr>
 <img width="581" alt="Olohin" src="https://user-images.githubusercontent.com/93374317/155108647-d4b191d2-2bda-4069-8670-6136cfe75a25.png">
+<hr>
 <h2> Bike Details Page </h2>
-<hr>
-<hr>
-
 <img width="912" alt="Screenshot 2022-02-22 152708" src="https://user-images.githubusercontent.com/93374317/155108748-fbdbd4ca-2d05-4226-9e4b-db9df78dd76b.png">
+<hr>
+<h2> FAQ Page</h2>
+<img width="907" alt="O2" src="https://user-images.githubusercontent.com/93374317/155109579-f2a28861-63ea-48bd-b8fa-c000eba81289.png">
+
+
 
