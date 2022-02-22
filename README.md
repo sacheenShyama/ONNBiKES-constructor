@@ -52,4 +52,4 @@ Rent a Bike or Scooty with Most Flexible Daily, Weekly & Monthly Bike Rental Pla
   
   <h4> Tech Stack: HTML || CSS || JavaScript Group-Members:4 </h4>
   
-<img width="905" alt="ONN" src="https://user-images.githubusercontent.com/93374317/155106591-e1afa592-d2af-4c35-999a-ba6d7010095f.png">
+<br/>
